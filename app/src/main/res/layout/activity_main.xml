@@ -67,7 +67,7 @@
 
                 <ImageButton
                     android:id="@+id/a"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:cropToPadding="false"
                     android:scaleType="centerCrop"
@@ -75,28 +75,28 @@
 
                 <ImageButton
                     android:id="@+id/i"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/i" />
 
                 <ImageButton
                     android:id="@+id/u"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/u" />
 
                 <ImageButton
                     android:id="@+id/e"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/e" />
 
                 <ImageButton
                     android:id="@+id/o"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/o" />
@@ -109,35 +109,35 @@
 
                 <ImageButton
                     android:id="@+id/ka"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ka" />
 
                 <ImageButton
                     android:id="@+id/ki"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ki" />
 
                 <ImageButton
                     android:id="@+id/ku"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ku" />
 
                 <ImageButton
                     android:id="@+id/ke"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ke" />
 
                 <ImageButton
                     android:id="@+id/ko"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ko" />
@@ -150,35 +150,35 @@
 
                 <ImageButton
                     android:id="@+id/sa"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/sa" />
 
                 <ImageButton
                     android:id="@+id/shi"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/shi" />
 
                 <ImageButton
                     android:id="@+id/su"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/su" />
 
                 <ImageButton
                     android:id="@+id/se"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/se" />
 
                 <ImageButton
                     android:id="@+id/so"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/so" />
@@ -191,35 +191,35 @@
 
                 <ImageButton
                     android:id="@+id/ta"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ta" />
 
                 <ImageButton
                     android:id="@+id/chi"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/chi" />
 
                 <ImageButton
                     android:id="@+id/tsu"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/tsu" />
 
                 <ImageButton
                     android:id="@+id/te"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/te" />
 
                 <ImageButton
                     android:id="@+id/to"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/to" />
@@ -232,35 +232,35 @@
 
                 <ImageButton
                     android:id="@+id/na"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/na" />
 
                 <ImageButton
                     android:id="@+id/ni"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ni" />
 
                 <ImageButton
                     android:id="@+id/nu"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/nu" />
 
                 <ImageButton
                     android:id="@+id/ne"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ne" />
 
                 <ImageButton
                     android:id="@+id/no"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/no" />
@@ -273,35 +273,35 @@
 
                 <ImageButton
                     android:id="@+id/ha"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ha" />
 
                 <ImageButton
                     android:id="@+id/hi"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/hi" />
 
                 <ImageButton
                     android:id="@+id/fu"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/fu" />
 
                 <ImageButton
                     android:id="@+id/he"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/he" />
 
                 <ImageButton
                     android:id="@+id/ho"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ho" />
@@ -314,35 +314,35 @@
 
                 <ImageButton
                     android:id="@+id/ma"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ma" />
 
                 <ImageButton
                     android:id="@+id/mi"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/mi" />
 
                 <ImageButton
                     android:id="@+id/mu"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/mu" />
 
                 <ImageButton
                     android:id="@+id/me"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/me" />
 
                 <ImageButton
                     android:id="@+id/mo"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/mo" />
@@ -356,21 +356,21 @@
 
                 <ImageButton
                     android:id="@+id/ya"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ya" />
 
                 <ImageButton
                     android:id="@+id/yu"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/yu" />
 
                 <ImageButton
                     android:id="@+id/yo"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/yo" />
@@ -383,35 +383,35 @@
 
                 <ImageButton
                     android:id="@+id/ra"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ra" />
 
                 <ImageButton
                     android:id="@+id/ri"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ri" />
 
                 <ImageButton
                     android:id="@+id/ru"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ru" />
 
                 <ImageButton
                     android:id="@+id/re"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/re" />
 
                 <ImageButton
                     android:id="@+id/ro"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ro" />
@@ -424,14 +424,14 @@
 
                 <ImageButton
                     android:id="@+id/wa"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/wa" />
 
                 <ImageButton
                     android:id="@+id/wo"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ro" />
@@ -444,7 +444,7 @@
 
                 <ImageButton
                     android:id="@+id/n"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_column="0"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/ro" />

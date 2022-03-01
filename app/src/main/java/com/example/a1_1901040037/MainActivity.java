@@ -13,20 +13,28 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
+    TextView textView ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textView = findViewById(R.id.txtViewAlphabet);
         initHiragana();
 
         Button btnHiragana = findViewById(R.id.btnHiragana);
-        btnHiragana.setOnClickListener(view -> initHiragana());
+        btnHiragana.setOnClickListener(view -> {
+            initHiragana();
+        });
+
         Button btnKatakana = findViewById(R.id.btnKatakana);
-        btnKatakana.setOnClickListener(view -> initKatakana());
+        btnKatakana.setOnClickListener(view -> {
+            initKatakana();
+        });
+
     }
 
     private void  initKatakana(){
-        TextView textView = findViewById(R.id.txtViewAlphabet);
         textView.setText(R.string.katakana);
 
         ImageButton a = findViewById(R.id.a);
@@ -446,7 +454,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initHiragana(){
-        TextView textView = findViewById(R.id.txtViewAlphabet);
         textView.setText(R.string.hiragana);
 
         ImageButton a = findViewById(R.id.a);
