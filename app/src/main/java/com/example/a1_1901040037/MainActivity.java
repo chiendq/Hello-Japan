@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -22,20 +23,27 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.txtViewAlphabet);
         initHiragana();
 
+        AlphaAnimation show = new AlphaAnimation(0f,1f);
+        show.setDuration(2000);
+        AlphaAnimation hide = new AlphaAnimation(1f,0f);
+        hide.setDuration(2000);
         Button btnHiragana = findViewById(R.id.btnHiragana);
         btnHiragana.setOnClickListener(view -> {
             initHiragana();
+            textView.startAnimation(show);
+
         });
 
         Button btnKatakana = findViewById(R.id.btnKatakana);
         btnKatakana.setOnClickListener(view -> {
             initKatakana();
+            textView.startAnimation(show);
         });
 
     }
 
-    private void  initKatakana(){
-        textView.setText(R.string.katakana);
+    private void  initHiragana(){
+        textView.setText(R.string.hiragana);
 
         ImageButton a = findViewById(R.id.a);
         a.setImageResource(R.drawable.a);
@@ -453,8 +461,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initHiragana(){
-        textView.setText(R.string.hiragana);
+    private void initKatakana(){
+        textView.setText(R.string.katakana);
 
         ImageButton a = findViewById(R.id.a);
         a.setImageResource(R.drawable.a1);
